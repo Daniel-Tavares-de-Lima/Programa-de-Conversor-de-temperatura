@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+</head>
+    <body>
+        <!--Cabeçalho-->
+        <main>
+            <div class="tudo">
+                <div class="titulo"><strong>Temperatura</strong></div>
+
+                <!--Campo de escolhas das temperaturas-->
+
+                <div class="campo">
+                    <label for="escolha"><strong>Escolha</strong></label> <!--MARCAÇÃO-->
+                    <select id="escolha" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                    </select>
+                    
+                </div>
+
+                <!--Campo 2 de escolhas das temperaturas-->
+                <div class="campo">
+                    <label for="escolha2"><strong>Escolha</strong></label>
+                    <select id="escolha" required>
+                        <option selected disable value="">Selecione</option>
+                        <option>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                    </select>
+
+                </div>
+
+                <!--Onde serão colocados os números // interção com o usuário-->
+                <div class="input">
+                    <label>Digite a temperatura</label>
+                    <input type="text" id="digite_a_temperatura">
+                </div>
+
+                <!--Botão-->
+                <div class="botao">
+                    <button>Converter</button>
+                </div>
+
+                <!--Resultado-->
+                <div class="result" id="resultado"></div>
+
+            </div>
+        </main>
+
+    
+    </body>
+</html>
