@@ -1,2 +1,2 @@
-# Programa de Conversor de temperatura
+# SITE PARA CONVERTER TEMPERATURA
  Conversor de temperatura em HTML, CSS E JS
