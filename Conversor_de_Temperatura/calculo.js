@@ -3,11 +3,13 @@
 const Converter = document.getElementById("Converter");
 
 
+
 function conversao(){
     const escolha = document.getElementById("escolha").value;
     const escolha2 = document.getElementById("escolha2").value;
     const digite_a_temperatura = document.getElementById("digite_a_temperatura").value;
     const resultado = document.getElementById("resultado");
+
 
     if  (escolha !== "Selecione" && digite_a_temperatura !== ""){
 
@@ -24,6 +26,7 @@ function conversao(){
         if (escolha == "Kelvin" && escolha2 == "Kelvin"){
             resultado.textContent = "MÓ PAZ..."
         }
+        
 
         
 
