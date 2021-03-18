@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titulo da Página-->
+    <title>Conversor de Temperatura</title>
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Começo-->
+    <main>
+        <div class="tudo">
+            <div class="titulo">Temperatura</div>
+
+            <!--Campo de escolhas das temperaturas-->
+
+            <div class="campo">
+                <label for="escolha"><strong>Escolha</strong></label>
+                <select id="escolha" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Kelvin</option>
+                </select>
+               
+            </div>
+
+            <!--2 Campo de Escolhas das temperaturas-->
+
+            <div class=campo>
+                <label for="escolha2"><strong>Escolha</strong></label>
+                <select id="escolha2" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Kelvin</option>
+                </select>
+            </div>
+
+            <!--Onde serão colocadas os números-->
+            <div class="input">
+                <label>Digite à temperatura</label>
+                <br>
+                <input type="text" id="digite_a_temperatura">
+            </div>
+            
+            <!--Botão-->
+            <button id="Converter">Converter</button>
+
+            <!--Resultado-->
+            <div class="result" id="resultado"></div>
+        </div>
+
+        <!--JavaScript-->
+        <script src="calculo.js"></script>
+
+    </main>
+    
+    
+</body>
+</html>
